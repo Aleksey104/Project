@@ -1,0 +1,101 @@
+.banerLayer { 
+    position: absolute;
+    width: 1440px;
+    height: 600px; 
+    left: 0px;
+    top: 167px;
+    background: #A1E2EB;
+    flex-shrink: 0;
+    }
+.saleWright{
+    position: absolute;
+    width: 540px;
+    height: 104px;
+    left: 50px;
+    top: 130px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 130%;
+    color: #FFFFFF;
+    }
+.saleWrightEnd  {
+    position: absolute;
+    width: 756px;
+    height: 82px;
+    left: 50px;
+    top: 237px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 63px;
+    line-height: 130%;
+    color: #FFFFFF;
+    }
+.saleButton{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 25px 50px;
+    gap: 10px;
+    position: absolute;
+    width: 241px;
+    height: 82px;
+    left: 51px;
+    top: 379px;
+
+    background: #FFFFFF;
+    border-radius: 13px;
+    }
+.saleButton .textSale{
+    width: 141px;
+    height: 32px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #2D2D2D;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+.moreButton{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 25px 40px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 235px;
+    height: 82px;
+    left: 332px;
+    top: 379px;
+    border: 2px solid #FFFFFF;
+    border-radius: 13px;  
+    }
+.moreButton .textMore{
+    width: 155px;
+    height: 32px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    }
+.bush{ 
+    top: -106px;
+    width: 600px;
+    height: 679px;
+    left: 799px;
+    position: absolute;
+    flex-shrink: 0;
+    background: url("../../public/images/image2.png") ;
+}

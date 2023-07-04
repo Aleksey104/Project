@@ -1,0 +1,42 @@
+.categoriesText{
+    width: 390px;
+    position: absolute;
+    height: 134px;
+    top: 807px;
+    color: #000;
+    font-size: 40px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 1.2px;
+}
+.allCategories{
+    position: absolute;
+    left: 296px;
+    top: 820px;
+    width: 120px;
+    height: 30.968px;
+    flex-shrink: 0;
+}
+.allCategoriesText{
+  
+color: #8B8B8B;
+text-align: center;
+font-size: 12px;
+font-family: Montserrat;
+font-weight: 700;
+line-height: 130%;
+letter-spacing: 0.36px;
+}
+.categoriesTabl{
+    width: 1378px;
+    height: 393px;
+    top: 879px;
+    left: 30px;
+    
+
+    display: flex; 
+    justify-content:space-between;
+    list-style: none;
+    position: absolute;
+}
